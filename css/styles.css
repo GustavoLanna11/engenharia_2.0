@@ -437,16 +437,16 @@ The secret is:
 
 .carrossel .fotos{
     width:500%;
-    animation: animacao 10s infinite;
+    animation: animacao 15s infinite;
 }
 
 .carrossel .fotos img{
     width:20%;
-    border-radius: 5%;
 } 
 
 @keyframes animacao{
-  
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
     25%{margin-left: -100%;}
     45%{margin-left: -100%;}
     50%{margin-left: -200%;}
@@ -557,7 +557,7 @@ The secret is:
 
 .carrosseld .fotosd{
     width:500%;
-    animation: animacao 10s infinite;
+    animation: animacao 15s infinite;
 }
 
 .carrosseld .fotosd img{
@@ -565,7 +565,6 @@ The secret is:
 } 
 
 @keyframes animacao{
-  
     0%{margin-left: 0;}
     20%{margin-left: 0;}
     25%{margin-left: -100%;}
